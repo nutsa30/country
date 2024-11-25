@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    
+
+   
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body >
+
+    
+        <header class="navbar">
+            <div class="container">
+                <h1 class="navbar-text animate__animated animate__flip">Where in the world?</h1>
+                
+                <button class="theme-switch-button ">
+                    <span id="moon-icon"><i class="fa-solid fa-moon"></i></span>
+                    <span id="theme-mode-span">Dark Mode</span>
+                </button>
+
+            </div>
+        </header>
+
+
+   
+    
+       
+    
+  
+
+    <div  class="search-bar container">
+        
+       
+        <div class="search-bar-input">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input class="input-field" type="text" id="inputField" placeholder="Search for a country...">
+        </div>
+      
+
+
+        
+        
+        <select data-aos="flip-up"  class="search-bar-select" name="" id="continent-select">
+            <option value="" disabled selected>Filter by Region</option>
+            <option  id="africa" value="africa">Africa</option>
+            <option  id="america" value="america">America</option>
+            <option  id="asia" value="Asia">Asia</option>
+            <option  id="europe" value="Europe">Europe</option>
+            <option  id="oceania" value="Oceania">Oceania</option>
+        </select>
+
+       
+
+
+
+    </div>
+
+
+ 
+
+
+   
+       
+
+
+    
+  
+    <script src="./main.js"></script>
+    
+</body>
+</html>
